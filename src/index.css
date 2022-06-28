@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.bg {
+  background-color: #0a2237;
+  /* background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.jum {
+  color: #fff;
 }
+
+.button {
+  background: rgb(242, 153, 74);
+  border-color: rgb(242, 153, 74);
+  color: #0a2237;
+  font-size: 16px;
+  font-weight: 500;
+}
+.button-img {
+  background: #0a2237;
+  border-color: #0a2237;
+  /* background: hsl(205, 47%, 42%);
+  border-color: hsl(205, 47%, 42%); */
+  color: #fff;
+}
+
+.logo {
+  color: #0a2237;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.navcolor {
+  color: #0a2237;
+  font-size: 16px;
+}
+.dash {
+  color: #0a2237;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* .bg {
+  background-color: #15326f;
+  background-image: linear-gradient(
+      rgba(42, 42, 42, 0.6),
+      rgba(42, 42, 42, 0.6)
+    ),
+    url(https://odis.homeaway.com/odis/homepage/1bb3a26d-9eff-45c8-815e-3890dfdd514d.hp-lyp-large.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.jum {
+  color: #fff;
+}
+
+.button {
+  background: #15326f;
+}
+
+.logo {
+  color: #245abc;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.navcolor {
+  color: #245abc;
+  font-size: 16px;
+}
+.dash {
+  color: #245abc;
+}
+
+.pointer {
+  cursor: pointer;
+} */
