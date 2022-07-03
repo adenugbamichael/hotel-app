@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 import { useParams, useNavigate } from "react-router-dom"
 import { useSelector } from "react-redux"
 import { stripeSuccessRequest } from "../actions/stripe"
+import { LoadingOutlined } from "@ant-design/icons"
 
 const StripeSuccess = () => {
   const params = useParams()
@@ -22,12 +23,12 @@ const StripeSuccess = () => {
         navigate("/stripe/cancel")
       }
     })
-  }, [params.hotelId])
+  }, [navigate, params.hotelId, token])
 
   return (
     <div className='container'>
-      <div className='col'>
-        <h2 className='text-center p-5'>Payment success. {params.hotelId}</h2>
+      <div className='d-flex justify-content-center p-5'>
+        <LoadingOutlined className='display-1 text-danger p-5' />
       </div>
     </div>
   )
